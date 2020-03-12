@@ -62,7 +62,7 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/xepozz/yii-debug-viewer.git"
+            "url": "https://github.com/Fantom409/yii-debug-viewer.git"
         }
     ],
     "autoload": {
