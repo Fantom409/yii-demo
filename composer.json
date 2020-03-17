@@ -45,15 +45,27 @@
         "yiisoft/strings": "^3.0@dev",
         "yiisoft/var-dumper": "^3.0@dev",
         "yiisoft/view": "^3.0@dev",
+        "yiisoft/yii-auth-client": "^3.0@dev",
         "yiisoft/yii-bootstrap4": "^3.0@dev",
         "yiisoft/yii-console": "^3.0@dev",
         "yiisoft/yii-cycle": "^3.0@dev",
         "yiisoft/yii-web": "^3.0@dev",
-        "yiisoft/yii-debug": "^3.0@dev"
+        "yiisoft/yii-debug": "dev-update-debug",
+        "yiisoft/yii-debug-viewer": "dev-refactoring"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/yiiliveext/yii-debug.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/Fantom409/yii-debug-viewer.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "src"

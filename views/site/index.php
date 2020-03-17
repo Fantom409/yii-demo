@@ -22,7 +22,10 @@ echo Carousel::widget()
     ]);
 ?>
 
-
+    <?= Yiisoft\Yii\AuthClient\Widgets\AuthChoice::widget([
+        'baseAuthUrl' => ['site/auth'],
+        'popupMode' => false,
+    ]) ?>
 
 <div class="card mt-3 col-md-6">
     <div class="card-body">
