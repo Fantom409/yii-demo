@@ -29,6 +29,7 @@
         "yiisoft/auth": "^1.0",
         "yiisoft/cache": "^3.0@dev",
         "yiisoft/cache-file": "^3.0@dev",
+        "yiisoft/cache-memcached": "^3.0@dev",
         "yiisoft/composer-config-plugin": "^1.0@dev",
         "yiisoft/csrf": "^3.0@dev",
         "yiisoft/data": "^3.0@dev",
